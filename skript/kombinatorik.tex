@@ -34,7 +34,7 @@ typischerweise mit ``Auf wieviele Arten \dots'' beginnen, zum Beispiel:
 \begin{itemize}
 \item Auf wieviele Arten kann man $n$ verschiedene Objekte anordnen?
 \item Auf wieviele Arten kann man $k$ Objekte aus $n$ auswählen?
-\item Auf wieviele Arten kann man $k$ mal ein Auswahl aus $n$ Objekten
+\item Auf wieviele Arten kann man $k$ mal eine Auswahl aus $n$ Objekten
 treffen?
 \end{itemize}
 
@@ -143,7 +143,7 @@ ist jetzt zu bestimmen, auf wieviele Arten die verbleibenden
 $n-1$ Objekte platziert werden können.
 Für das zweite
 Objekt muss einer der $n-1$ verbleibenden Plätze gewählt werden.
-Bisher haben sind also $n(n-1)$ Möglichkeiten gefunden worden.
+Bisher sind also $n(n-1)$ Möglichkeiten gefunden worden.
 Für das dritte Objekt verbleiben jetzt noch $n-2$ Plätze,
 was die bisher gefundenen Möglichkeiten auf $n(n-1)(n-2)$
 erhöht.
@@ -157,7 +157,7 @@ P_n=n(n-1)(n-2)\dotsm 2\cdot 1=n!
 Man kann für $P_n$ auch eine Rekursionsformel finden.
 Um $n$ Objekte
 zu platzieren, muss man zunächst einen Platz für das erste Objekt
-platzieren, was auf $n$ Arten möglich ist.
+finden, was auf $n$ Arten möglich ist.
 Für jede solche Wahl
 muss man dann $n-1$ Objekte platzieren, dafür gibt es $P_{n-1}$
 Möglichkeiten.
@@ -285,7 +285,7 @@ Wiederholen wir
 dies, finden wir insgesamt $n(n-1)(n-2)\dots(n-k+1)$ Möglichkeiten
 (das Produkt hat $k$ Faktoren).
 In diesem Prozess werden
-aber all möglichen Permutationen der resultierenden Auswahl
+aber alle möglichen Permutationen der resultierenden Auswahl
 unabhängig voneinander erzeugt, obwohl sie uns nicht
 interessieren.
 Wir erhalten also soviel mal zu viele Lösungen, wie
